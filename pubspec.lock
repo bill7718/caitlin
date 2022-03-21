@@ -170,10 +170,10 @@ packages:
     description:
       path: "."
       ref: HEAD
-      resolved-ref: "671378b68af83dc1f250a405a7172d006d3a87d2"
+      resolved-ref: e275341436ce6f1c090d7565196c216ddc167fcc
       url: "https://github.com/bill7718/serializable_data"
     source: git
-    version: "1.0.0"
+    version: "1.0.1"
   sky_engine:
     dependency: transitive
     description: flutter

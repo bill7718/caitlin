@@ -8,3 +8,5 @@ export 'src/data_object_journey_form_state.dart';
 export 'src/my_app.dart';
 export 'src/simple_text_provider.dart';
 export 'src/mock_firebase_service.dart';
+export 'src/mock_authentication_service.dart';
+export 'src/authentication_service.dart';
