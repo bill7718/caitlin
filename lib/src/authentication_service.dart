@@ -3,6 +3,13 @@ abstract class AuthenticationService {
   Future<String?> createUser(String email, String password);
 
   Future<String?> authenticate(String email, String password);
+
+
+  String? get uid;
+  String? get email;
+
+  bool get authenticated=> uid!= null;
+
 }
 
 class AuthenticationException implements Exception {

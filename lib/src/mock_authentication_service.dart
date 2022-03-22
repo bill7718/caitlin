@@ -6,6 +6,10 @@ import 'authentication_service.dart';
 
 class MockAuthenticationService implements AuthenticationService {
 
+  String? uid;
+  String? email;
+
+
 
   @override
   Future<String?> createUser(String email, String password) async {
@@ -26,4 +30,7 @@ class MockAuthenticationService implements AuthenticationService {
 
     return c.future;
   }
+
+  @override
+  bool get authenticated => uid!= null;
 }
