@@ -4,6 +4,7 @@ abstract class AuthenticationService {
 
   Future<String?> authenticate(String email, String password);
 
+  Future<void> logout();
 
   String? get uid;
   String? get email;
