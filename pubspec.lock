@@ -43,6 +43,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.15.0"
+  crypto:
+    dependency: transitive
+    description:
+      name: crypto
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "3.0.1"
   cupertino_icons:
     dependency: "direct main"
     description:
@@ -87,7 +94,7 @@ packages:
       name: font_awesome_flutter
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "9.2.0"
+    version: "10.1.0"
   http:
     dependency: transitive
     description:
@@ -151,13 +158,6 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.8.0"
-  pretty_json:
-    dependency: transitive
-    description:
-      name: pretty_json
-      url: "https://pub.dartlang.org"
-    source: hosted
-    version: "2.0.0"
   provider:
     dependency: "direct main"
     description:
@@ -170,10 +170,10 @@ packages:
     description:
       path: "."
       ref: HEAD
-      resolved-ref: e275341436ce6f1c090d7565196c216ddc167fcc
+      resolved-ref: d0234c4450d5165a453be2fea91e6362cf7f4422
       url: "https://github.com/bill7718/serializable_data"
     source: git
-    version: "1.0.1"
+    version: "1.0.4"
   sky_engine:
     dependency: transitive
     description: flutter
@@ -240,10 +240,10 @@ packages:
     description:
       path: "."
       ref: HEAD
-      resolved-ref: e08fa9476628dcf3d4a3ec465b343fdc364501a7
+      resolved-ref: "180b13e4f275afbbebf92a6f53ebef970019aa36"
       url: "https://github.com/bill7718/waterloo"
     source: git
-    version: "0.0.1"
+    version: "1.01.01"
 sdks:
-  dart: ">=2.15.0-116.0.dev <3.0.0"
+  dart: ">=2.16.0-116.0.dev <3.0.0"
   flutter: ">=1.17.0"
